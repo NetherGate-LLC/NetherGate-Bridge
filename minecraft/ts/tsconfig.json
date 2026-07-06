@@ -1,0 +1,13 @@
+{
+  "//": "Config for the Minecraft addon-side scripts. These are meant to be copied into your addon's behaviour pack and bundled by your addon toolchain; this file is just for editor type-checking.",
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES2020",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["**/*.ts"]
+}
